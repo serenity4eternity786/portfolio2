@@ -1,9 +1,13 @@
 * {
-    font-family: 'Delius Swash Caps', cursive;
-    background-color: #543A73;
     
     
 }
+    
+body {
+    background-color: #543A73;
+}    
+    
+
 
 .title {
     font: #675314;
@@ -13,13 +17,17 @@
     margin-right: 10%;
     margin-top: 10%;
     text-align: center;
+    font-family: 'Delius Swash Caps', cursive;
+    text-shadow: 2px 2px #000000;
 }
 
-.intro {
+.intro, h2 {
     font-size: 1.5rem;
-    color: #76872E;
+    color: #9BE58B;
     margin-right: 25%;
     margin-left: 25%;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 25px;
 }
 
 .project1 {
@@ -56,16 +64,17 @@
     color: #AA944F;
     text-align: center;
     margin-left: 15% ;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.contact {
-    font: #AA944F;
-    font-size: 1rem;
-    text-align: center;
-    margin: 5px;
-    margin-bottom: 60px;
-    color: #B6C576;
-}
+/*.contact {*/
+/*    font: #AA944F;*/
+/*    font-size: 1rem;*/
+/*    text-align: center;*/
+/*    margin: 5px;*/
+/*    margin-bottom: 60px;*/
+/*    color: #B6C576;*/
+/*}*/
 
 .social {
     width: 15%;
@@ -83,6 +92,7 @@ footer {
     display: table-cell;
     text-align: center;
     width: 32%;
+    color: #FFFD70;
 }
 
 .project1 img, .project2 img, .project3 img {
@@ -94,6 +104,7 @@ footer {
     margin-right: auto;
     text-align: center;
     vertical-align: middle;
+    box-shadow: 3px 3px 2px #888888;
 }
 
 .project1 img{
@@ -106,6 +117,7 @@ footer {
     margin-right: auto;
     margin-top: 200px;
     margin-bottom: 175px;
+    font-family: 'Delius Swash Caps', cursive;
 }
 
 .languages img {
@@ -118,20 +130,21 @@ footer {
 h1 {
     font-size: 250%;
     margin: 0;
-    color: #AA944F;
+    color: #FFFD70;
     text-align: center;
 }
 
-h6 {
-    font: #93A34C;
+h5, h6 {
+    font: #9BE58B;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-input {
-    margin: 5px;
-    width: 350px;
-    font-size: 1rem;
+/*input {*/
+/*    margin: 5px;*/
+/*    width: 350px;*/
+/*    font-size: 1rem;*/
     
-}
+/*}*/
 
 
 
@@ -149,11 +162,19 @@ input {
 }
 
 .project-wrapper h2 {
-    color: #CDB97B;
+    color: #FFFD70;
     font-size: 2rem;
     text-align: center;
 }
 
 a {
     color: #AA944F; 
+    text-shadow: 2px 2px #000000;
+    padding: 10px;
 }
+
+li {
+    text-align: left center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
