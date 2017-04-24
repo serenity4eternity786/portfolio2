@@ -44,6 +44,7 @@ p, li{
 footer{
     color: #311A91;
     border-bottom: 15px solid #311A91;
+    border-top: 15px solid #311A91;
     background-color: #BFB4C1;
 }
 
