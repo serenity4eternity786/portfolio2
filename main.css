@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    border-top: 15px solid #311A91;
+    border-top: 15px solid #432BAD;
     margin-top: 0;
     text-align: center;
     min-width: 300px;
@@ -42,10 +42,10 @@ p, li{
 }
 
 footer{
-    color: #311A91;
-    border-bottom: 15px solid #311A91;
-    border-top: 15px solid #311A91;
-    background-color: #BFB4C1;
+    color: #432BAD;
+    border-bottom: 15px solid #432BAD;
+    border-top: 15px solid #432BAD;
+    background-color: #FFFA4E;
 }
 
 .project-project1{
@@ -53,8 +53,8 @@ footer{
 }
 
 .project-project2{
-    color: #311A91;
-    background-color: #BFB4C1;
+    color: #432BAD;
+    background-color: #FFFA4E;
     padding-bottom: 30px;
 }
 
@@ -67,18 +67,18 @@ footer{
 }
 
 .uxinfo, .proj {
-    color: #311A91;
+    color: #432BAD;
 }
 
 .uxinfo h1 {
-    color: #311A91;
+    color: #432BAD;
 }
 
 header.title {
-    color: #311A91;
+    color: #432BAD;
     padding-top: 275px;
-    background-color: #BFB4C1;
-    border-bottom: 15px solid #311A91;
+    background-color: #FFFA4E;
+    border-bottom: 15px solid #432BAD;
 }
 
 .proj{
@@ -103,6 +103,11 @@ footer h2{
 }
 
 .button:hover{
-     background-color: #311A91;
+     background-color: #432BAD;
      color: white;
+}
+
+p{
+    margin-left: 100px;
+    margin-right: 100px;
 }
