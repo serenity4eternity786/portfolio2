@@ -38,7 +38,7 @@ p, li{
 }
 
 .social {
-    width: 04%;
+    width: 02%;
     display: inline;
 }
 
@@ -46,7 +46,8 @@ footer{
     color: #432BAD;
     border-bottom: 15px solid #432BAD;
     border-top: 15px solid #432BAD;
-    background-color: #FFFA4E;
+    background-image: url("images/aurora.png");
+    background-position: center;
 }
 
 .project-project1{
@@ -54,7 +55,6 @@ footer{
 }
 
 .project-project2{
-    color: #432BAD;
     /*background-color: #FFFA4E;*/
     padding-bottom: 30px;
 }
@@ -65,9 +65,11 @@ footer{
 
 .uxinfo{
      padding-bottom: 75px;
+     color: #ffffff;
+     text-shadow: 1px 1px #000000;
 }
 
-.uxinfo, .proj {
+.proj {
     color: #432BAD;
 }
 
@@ -76,12 +78,14 @@ footer{
 }
 
 header.title {
-    color: #432BAD;
+    color: #ffffff;
     padding-top: 60px;
     /*background-color: #FFFA4E;*/
     border-bottom: 15px solid #432BAD;
     background-image: url("images/aurora.png");
     background-position: center;
+    text-shadow: 1px 1px #000000;
+    
 }
 
 .proj{
@@ -97,6 +101,8 @@ h3 {
 footer h2{
     padding-top: 10px;
     padding-bottom: 10px;
+    text-shadow: 1px 1px #000000;
+    color: #ffffff;
 }
 
 .button {
@@ -141,4 +147,8 @@ footer h2{
 p{
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.lang-title {
+    color: #432BAD;
 }
