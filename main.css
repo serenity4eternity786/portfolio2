@@ -110,12 +110,12 @@ footer h2{
     margin-bottom: 10px;
     border-radius: 4px;
     transition-duration: 0.4s;
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    background: #36086E;
+    background-image: -webkit-linear-gradient(top, #36086E, #36086E);
+    background-image: -moz-linear-gradient(top, #36086E, #36086E);
+    background-image: -ms-linear-gradient(top, #36086E, #36086E);
+    background-image: -o-linear-gradient(top, #36086E, #36086E);
+    background-image: linear-gradient(to bottom, #36086E, #36086E);
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
@@ -128,11 +128,11 @@ footer h2{
 
 .button:hover {
   background: #432BAD;
-  background-image: -webkit-linear-gradient(top, #432BAD, #3498db);
-  background-image: -moz-linear-gradient(top, #432BAD, #3498db);
-  background-image: -ms-linear-gradient(top, #432BAD, #3498db);
-  background-image: -o-linear-gradient(top, #432BAD, #3498db);
-  background-image: linear-gradient(to bottom, #432BAD, #3498db);
+  background-image: -webkit-linear-gradient(top, #432BAD, #36086E);
+  background-image: -moz-linear-gradient(top, #432BAD, #36086E);
+  background-image: -ms-linear-gradient(top, #432BAD, #36086E);
+  background-image: -o-linear-gradient(top, #432BAD, #36086E);
+  background-image: linear-gradient(to bottom, #432BAD, #36086E);
   text-decoration: none;
 }
 
