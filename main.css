@@ -67,7 +67,7 @@ footer{
 
 .uxinfo{
      padding-bottom: 75px;
-     color: #832080;
+     color: #2c1592;
      text-shadow: 1px 1px #000000;
 }
 
@@ -80,7 +80,7 @@ footer{
 }
 
 header.title {
-    color: #832080;
+    color: #2c1592;
     padding-top: 60px;
     /*background-color: #FFFA4E;*/
     border-bottom: 15px solid #432BAD;
@@ -104,7 +104,7 @@ footer h2{
     padding-top: 10px;
     padding-bottom: 10px;
     text-shadow: 1px 1px #000000;
-    color: #832080;
+    color: #2c1592;
 }
 
 .button {
