@@ -45,11 +45,13 @@ p, li{
 }
 
 footer{
-    color: #432BAD;
+    color: #432bad;
     border-bottom: 15px solid #432BAD;
     border-top: 15px solid #432BAD;
     background-image: url("images/aurora.png");
     background-position: center;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: black;
 }
 
 .project-project1{
@@ -67,8 +69,11 @@ footer{
 
 .uxinfo{
      padding-bottom: 75px;
-     color: #2c1592;
-     text-shadow: 1px 1px #000000;
+     color: #432bad;
+     /*text-shadow: 1px 1px #000000;*/
+     -webkit-text-stroke-width: .4px;
+   -webkit-text-stroke-color: black;
+    
 }
 
 .proj {
@@ -80,13 +85,15 @@ footer{
 }
 
 header.title {
-    color: #2c1592;
+    color: #432bad;
     padding-top: 60px;
     /*background-color: #FFFA4E;*/
     border-bottom: 15px solid #432BAD;
     background-image: url("images/aurora.png");
     background-position: center;
-    text-shadow: 1px 1px #000000;
+    /*text-shadow: 1px 1px #000000;*/
+    -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;
     
 }
 
@@ -103,8 +110,10 @@ h3 {
 footer h2{
     padding-top: 10px;
     padding-bottom: 10px;
-    text-shadow: 1px 1px #000000;
-    color: #2c1592;
+    /*text-shadow: 1px 1px #000000;*/
+    color: #432bad;
+    -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;
 }
 
 .button {
