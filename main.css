@@ -18,6 +18,8 @@ img {
     height: auto;
     width: 100%;
     margin-left: 0;
+    max-width: 110rem;
+    max-height: 55rem;
 }
 
 li {
@@ -65,7 +67,7 @@ footer{
 
 .uxinfo{
      padding-bottom: 75px;
-     color: #ffffff;
+     color: #832080;
      text-shadow: 1px 1px #000000;
 }
 
@@ -78,7 +80,7 @@ footer{
 }
 
 header.title {
-    color: #ffffff;
+    color: #832080;
     padding-top: 60px;
     /*background-color: #FFFA4E;*/
     border-bottom: 15px solid #432BAD;
@@ -102,7 +104,7 @@ footer h2{
     padding-top: 10px;
     padding-bottom: 10px;
     text-shadow: 1px 1px #000000;
-    color: #ffffff;
+    color: #832080;
 }
 
 .button {
