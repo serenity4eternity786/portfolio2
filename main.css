@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    border-top: 15px solid #432BAD;
+    border-top: 15px solid #180303;
     margin-top: 0;
     text-align: center;
     min-width: 300px;
@@ -40,15 +40,16 @@ p, li{
 }
 
 .social {
-    width: 02%;
+    font-size: 5px;
     display: inline;
+    color: #ffffff;
 }
 
 footer{
-    color: #432bad;
-    border-bottom: 15px solid #432BAD;
-    border-top: 15px solid #432BAD;
-    background-image: url("images/aurora.png");
+    color: #522D2D;
+    border-bottom: 15px solid #180303;
+    border-top: 15px solid #180303;
+    background-color: #290B0B;
     background-position: center;
     -webkit-text-stroke-width: .2px;
     -webkit-text-stroke-color: black;
@@ -69,37 +70,37 @@ footer{
 
 .uxinfo{
      padding-bottom: 75px;
-     color: #432bad;
+     color: #ffffff;
      /*text-shadow: 1px 1px #000000;*/
-     -webkit-text-stroke-width: .4px;
-   -webkit-text-stroke-color: black;
+   /*  -webkit-text-stroke-width: .4px;*/
+   /*-webkit-text-stroke-color: black;*/
     
 }
 
 .proj {
-    color: #432BAD;
+    color: #522D2D;
+}
+
+.proj1 {
+    color: #522D2D;
+    text-decoration: underline;
 }
 
 .uxinfo h1 {
-    color: #432BAD;
+    color: #ffffff;
 }
 
 header.title {
-    color: #432bad;
+    color: #ffffff;
     padding-top: 60px;
     /*background-color: #FFFA4E;*/
-    border-bottom: 15px solid #432BAD;
-    background-image: url("images/aurora.png");
+    border-bottom: 15px solid #180303;
+    background-color: #290B0B;
     background-position: center;
     /*text-shadow: 1px 1px #000000;*/
-    -webkit-text-stroke-width: .5px;
-   -webkit-text-stroke-color: black;
+   /* -webkit-text-stroke-width: .5px;*/
+   /*-webkit-text-stroke-color: black;*/
     
-}
-
-.proj{
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 h3 {
@@ -111,9 +112,9 @@ footer h2{
     padding-top: 10px;
     padding-bottom: 10px;
     /*text-shadow: 1px 1px #000000;*/
-    color: #432bad;
-    -webkit-text-stroke-width: .5px;
-   -webkit-text-stroke-color: black;
+    color: #ffffff;
+   /* -webkit-text-stroke-width: .5px;*/
+   /*-webkit-text-stroke-color: black;*/
 }
 
 .button {
@@ -121,15 +122,15 @@ footer h2{
     margin-bottom: 10px;
     border-radius: 4px;
     transition-duration: 0.4s;
-    background: #36086E;
-    background-image: -webkit-linear-gradient(top, #36086E, #36086E);
-    background-image: -moz-linear-gradient(top, #36086E, #36086E);
-    background-image: -ms-linear-gradient(top, #36086E, #36086E);
-    background-image: -o-linear-gradient(top, #36086E, #36086E);
-    background-image: linear-gradient(to bottom, #36086E, #36086E);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
+    background: #3D1818;
+    background-image: -webkit-linear-gradient(top, #3D1818, #3D1818);
+    background-image: -moz-linear-gradient(top, #3D1818, #3D1818);
+    background-image: -ms-linear-gradient(top, #3D1818, #3D1818);
+    background-image: -o-linear-gradient(top, #3D1818, #3D1818);
+    background-image: linear-gradient(to bottom, #3D1818, #3D1818);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
@@ -139,13 +140,14 @@ footer h2{
 }
 
 .button:hover {
-  background: #432BAD;
-  background-image: -webkit-linear-gradient(top, #432BAD, #36086E);
-  background-image: -moz-linear-gradient(top, #432BAD, #36086E);
-  background-image: -ms-linear-gradient(top, #432BAD, #36086E);
-  background-image: -o-linear-gradient(top, #432BAD, #36086E);
-  background-image: linear-gradient(to bottom, #432BAD, #36086E);
+  background: #522D2D;
+  background-image: -webkit-linear-gradient(top, #522D2D, #3D1818);
+  background-image: -moz-linear-gradient(top, #522D2D, #3D1818);
+  background-image: -ms-linear-gradient(top, #522D2D, #3D1818);
+  background-image: -o-linear-gradient(top, #522D2D, #3D1818);
+  background-image: linear-gradient(to bottom, #522D2D, #3D1818);
   text-decoration: none;
+  cursor: pointer;
 }
 
     
@@ -157,10 +159,34 @@ footer h2{
 /*}*/
 
 p{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .lang-title {
-    color: #432BAD;
+    color: #522D2D;
+    text-decoration: underline;
+}
+
+.fa{
+    display: block;
+}
+
+.fa-5x{
+    font-size: 10em;
+    display: inline-block;
+}
+
+element {
+    margin-bottom: none;
+    margin-top: none;
+}
+
+.hearthproj{
+    color: #522D2D;
+}
+
+.techused{
+    font-style: italic;
+    color: #858585;
 }
